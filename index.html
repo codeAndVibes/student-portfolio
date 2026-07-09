@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sarah Jenkins | Creative Developer & Designer Portfolio</title>
+  <meta name="description" content="Portfolio of Sarah Jenkins, a student developer & UI/UX designer specializing in artificial intelligence, modern web systems, and premium mobile interfaces.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Ambient Glow Effects -->
+  <div class="ambient-glows">
+    <div class="glow-1"></div>
+    <div class="glow-2"></div>
+    <div class="glow-3"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="logo" id="nav-logo">
+        Sarah J<span class="logo-dot"></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#hero" class="nav-link active" id="link-hero">Home</a></li>
+          <li><a href="#about" class="nav-link" id="link-about">About</a></li>
+          <li><a href="#projects" class="nav-link" id="link-projects">Projects</a></li>
+          <li><a href="#experience" class="nav-link" id="link-experience">Experience</a></li>
+          <li><a href="#contact" class="nav-link" id="link-contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-grid">
+      <div class="hero-info scroll-animate animated">
+        <div class="hero-tag">
+          <span></span> Open for Summer Internships '27
+        </div>
+        <h1 class="hero-title">
+          Crafting <span class="gradient-text">Intelligent</span> & <span class="gradient-text-alt">Interactive</span> Digital Experiences
+        </h1>
+        <p class="hero-desc">
+          Hi, I'm Sarah. I'm a Computer Science & Design honors student. I build fast, smart web systems and design premium, user-focused mobile applications.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary" id="hero-btn-projects">
+            View My Work
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary" id="hero-btn-contact">Let's Connect</a>
+        </div>
+      </div>
+      <div class="hero-visual scroll-animate animated">
+        <div class="visual-glow"></div>
+        <div class="avatar-wrapper">
+          <img src="./assets/avatar.jpg" alt="Sarah Jenkins portrait" id="hero-avatar-img">
+        </div>
+        <div class="visual-badge glass-panel" id="hero-badge">
+          <span class="badge-icon">🚀</span>
+          <div class="badge-text">
+            <span class="badge-title">Creative Coding</span>
+            <span class="badge-sub">HTML/CSS/JS/Python</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About & Skills Section -->
+  <section class="about" id="about">
+    <div class="section-header scroll-animate">
+      <span class="section-subtitle">About Me</span>
+      <h2 class="section-title">My Journey & Expertise</h2>
+      <p class="section-desc">Bridging the gap between software engineering logic and beautiful digital interfaces.</p>
+    </div>
+    
+    <div class="about-grid">
+      <div class="about-info glass-panel scroll-animate" id="about-info-panel">
+        <h3>Creative Developer</h3>
+        <p class="about-text">
+          I'm currently pursuing a Bachelor's Degree in Computer Science with a specialization in Human-Computer Interaction. I am passionate about crafting visual systems that aren't just functionally complex, but also visually premium and accessible.
+        </p>
+        <p class="about-text">
+          Outside of lecture halls and coding labs, I love participating in design hackathons, contributing to open-source UI libraries, and learning more about how generative AI can transform user workflows.
+        </p>
+        <div class="about-stats">
+          <div class="stat-item">
+            <div class="stat-num gradient-text">3.9</div>
+            <div class="stat-label">CGPA Honors</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num gradient-text-alt">15+</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num gradient-text">3</div>
+            <div class="stat-label">Hackathon Wins</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills-wrapper glass-panel scroll-animate" id="skills-panel">
+        <h3>Tech Stack & Skills</h3>
+        <div class="skills-grid">
+          
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span class="skill-name">Frontend Dev (HTML/CSS/JS/React)</span>
+              <span class="skill-pct">90%</span>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" data-percentage="90%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span class="skill-name">Creative UI/UX Design (Figma/Prototyping)</span>
+              <span class="skill-pct">85%</span>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" data-percentage="85%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span class="skill-name">Backend & AI Integration (Python/Node.js)</span>
+              <span class="skill-pct">75%</span>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" data-percentage="75%"></div>
+            </div>
+          </div>
+
+          <div class="skill-bar-item">
+            <div class="skill-info">
+              <span class="skill-name">Version Control & Workflow (Git/GitHub)</span>
+              <span class="skill-pct">80%</span>
+            </div>
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" data-percentage="80%"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="section-header scroll-animate">
+      <span class="section-subtitle">Portfolio</span>
+      <h2 class="section-title">Selected Masterpieces</h2>
+      <p class="section-desc">A showcase of student assignments turned into interactive and functional digital products.</p>
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="project-filters scroll-animate" id="project-filters-container">
+      <button class="filter-btn active" data-filter="all" id="filter-btn-all">All</button>
+      <button class="filter-btn" data-filter="ai" id="filter-btn-ai">Artificial Intel</button>
+      <button class="filter-btn" data-filter="web" id="filter-btn-web">Web Systems</button>
+      <button class="filter-btn" data-filter="design" id="filter-btn-design">UI/UX Design</button>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid" id="projects-grid">
+      
+      <!-- Project 1 (AI) -->
+      <article class="project-card glass-panel scroll-animate" data-category="ai" id="project-card-ai">
+        <div class="project-img">
+          <img src="./assets/project_ai.jpg" alt="Codix AI coding assistant dashboard">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link-btn" aria-label="View source code on GitHub" id="link-github-ai">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+              <a href="#" class="project-link-btn" aria-label="Launch project demo" id="link-demo-ai">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-content">
+          <div class="project-tags">
+            <span class="project-tag">TypeScript</span>
+            <span class="project-tag">OpenAI API</span>
+            <span class="project-tag">React</span>
+          </div>
+          <h3 class="project-cardTitle">Codix AI Assistant</h3>
+          <p class="project-desc">
+            A real-time intelligent workspace dashboard providing metrics and AI code optimization suggestions for student assignments.
+          </p>
+          <a href="#" class="project-more" id="more-link-ai">Read Case Study <span>&rarr;</span></a>
+        </div>
+      </article>
+
+      <!-- Project 2 (Web) -->
+      <article class="project-card glass-panel scroll-animate" data-category="web" id="project-card-web">
+        <div class="project-img">
+          <img src="./assets/project_web.jpg" alt="Student productivity portal hub dashboard">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link-btn" aria-label="View source code on GitHub" id="link-github-web">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+              <a href="#" class="project-link-btn" aria-label="Launch project demo" id="link-demo-web">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-content">
+          <div class="project-tags">
+            <span class="project-tag">HTML5/CSS3</span>
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">Firebase</span>
+          </div>
+          <h3 class="project-cardTitle">Student Hub Dashboard</h3>
+          <p class="project-desc">
+            A clean, productivity-boosting portal showcasing calendars, habits, and task progress widgets with dynamic local storage.
+          </p>
+          <a href="#" class="project-more" id="more-link-web">Read Case Study <span>&rarr;</span></a>
+        </div>
+      </article>
+
+      <!-- Project 3 (UX/UI Design) -->
+      <article class="project-card glass-panel scroll-animate" data-category="design" id="project-card-design">
+        <div class="project-img">
+          <img src="./assets/project_design.jpg" alt="Mobile travel app design interfaces">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="project-link-btn" aria-label="View design project on Figma" id="link-figma-design">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </a>
+              <a href="#" class="project-link-btn" aria-label="Launch protoype demo" id="link-demo-design">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-content">
+          <div class="project-tags">
+            <span class="project-tag">UI/UX Design</span>
+            <span class="project-tag">Figma Prototype</span>
+            <span class="project-tag">User Research</span>
+          </div>
+          <h3 class="project-cardTitle">Nomad Travel Planner</h3>
+          <p class="project-desc">
+            A premium, neon-styled mobile flight booking and interactive trip organizer application designed with high visual contrast.
+          </p>
+          <a href="#" class="project-more" id="more-link-design">Read Case Study <span>&rarr;</span></a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- Experience/Activities timeline -->
+  <section class="experience" id="experience">
+    <div class="section-header scroll-animate">
+      <span class="section-subtitle">Milestones</span>
+      <h2 class="section-title">Timeline & Education</h2>
+      <p class="section-desc">Key leadership positions, technical internships, and academic records.</p>
+    </div>
+
+    <div class="timeline">
+      
+      <!-- Timeline Item 1 -->
+      <div class="timeline-item scroll-animate" id="timeline-item-1">
+        <div class="timeline-dot"></div>
+        <div class="timeline-panel glass-panel">
+          <div class="timeline-meta">
+            <span class="timeline-date">Jun 2026 - Present</span>
+            <span class="timeline-type">Internship</span>
+          </div>
+          <h3 class="timeline-title">Software Engineering Intern</h3>
+          <div class="timeline-org">Stellar Tech Systems</div>
+          <div class="timeline-body">
+            <p>Collaborating with the design engineering team to construct premium web interfaces.</p>
+            <ul>
+              <li>Built reusable component systems reducing styling overhead by 25%.</li>
+              <li>Integrated machine learning models directly into REST APIs.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Timeline Item 2 -->
+      <div class="timeline-item scroll-animate" id="timeline-item-2">
+        <div class="timeline-dot"></div>
+        <div class="timeline-panel glass-panel">
+          <div class="timeline-meta">
+            <span class="timeline-date">Sep 2024 - Jun 2026</span>
+            <span class="timeline-type">Leadership</span>
+          </div>
+          <h3 class="timeline-title">President & Lead Designer</h3>
+          <div class="timeline-org">University UX/UI Club</div>
+          <div class="timeline-body">
+            <p>Directing design challenges, hosting workshops, and guiding student design sprints.</p>
+            <ul>
+              <li>Mentored 120+ active student members in modern layout best practices.</li>
+              <li>Organized the annual campus design sprint hackathon with over $5k in prizes.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Timeline Item 3 -->
+      <div class="timeline-item scroll-animate" id="timeline-item-3">
+        <div class="timeline-dot"></div>
+        <div class="timeline-panel glass-panel">
+          <div class="timeline-meta">
+            <span class="timeline-date">Sep 2023 - Jun 2027</span>
+            <span class="timeline-type">Education</span>
+          </div>
+          <h3 class="timeline-title">B.S. in Computer Science & Design (Honors)</h3>
+          <div class="timeline-org">State Tech University</div>
+          <div class="timeline-body">
+            <p>Specializing in Human-Computer Interaction, Advanced Software Design, and Interactive Systems.</p>
+            <ul>
+              <li>Consistent Dean's List (GPA: 3.9/4.0).</li>
+              <li>Academic projects: generative visual systems, microservices web platforms.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="section-header scroll-animate">
+      <span class="section-subtitle">Get in Touch</span>
+      <h2 class="section-title">Let's Create Together</h2>
+      <p class="section-desc">Have an interesting project proposal, internship offer, or just want to talk tech? Drop a message!</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info scroll-animate" id="contact-info-panel">
+        <div>
+          <h3 class="contact-info-title">Let's Connect</h3>
+          <p class="contact-info-desc">Feel free to reach out via direct email, social platforms, or by submitting this contact form.</p>
+        </div>
+        
+        <div class="contact-methods">
+          <!-- Card 1 -->
+          <div class="contact-method-card glass-panel" id="method-email">
+            <div class="contact-icon-wrapper">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div>
+              <span class="contact-method-label">Direct Mail</span>
+              <a href="mailto:sarah.jenkins@student.tech.edu" class="contact-method-value">sarah@jenkins.dev</a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="contact-method-card glass-panel" id="method-location">
+            <div class="contact-icon-wrapper">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            </div>
+            <div>
+              <span class="contact-method-label">Location</span>
+              <span class="contact-method-value">San Francisco, CA</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-panel glass-panel scroll-animate" id="contact-form-container">
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group-row">
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-input" placeholder="Let's collaborate" required>
+          </div>
+          <div class="form-group">
+            <label for="message" class="form-label">Your Message</label>
+            <textarea id="message" name="message" class="form-textarea" placeholder="Hi Sarah, I would love to talk about..." required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary" id="btn-submit">
+            Send Message
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          </button>
+          <div id="form-feedback" class="form-message"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <a href="#hero" class="logo" id="footer-logo">
+        Sarah J<span class="logo-dot"></span>
+      </a>
+      <div class="footer-socials">
+        <a href="#" class="social-link" aria-label="GitHub Profile" id="social-github">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="LinkedIn Profile" id="social-linkedin">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+        </a>
+        <a href="#" class="social-link" aria-label="Twitter Profile" id="social-twitter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+        </a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Sarah Jenkins. All rights reserved. Designed with ❤️ & Code.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
